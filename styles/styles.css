@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #bbb8b8;
+    min-width: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    height: 10rem;
+}
+
+h1 {
+    padding: 0;
+    color: #1b3572;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+
+}
+
+.header--paragraph {
+    font-size: 0.75rem;
+    color: #218bcd;
+    padding: 0;
+    text-align: left;
+    font-variant: small-caps;
+    letter-spacing: 0.0625rem;
+}
+
+.container ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.container ul li {
+    list-style: none;
+    color: #7b7b7b;
+    font-size: 1rem;
+    font-variant: small-caps;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+ul li a:hover {
+    border-bottom: 0.0625rem #7b7b7b solid;
+}
+
+ul li a:active {
+    text-decoration: underline;
+    border-bottom: 0.0625rem #7b7b7b solid
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-pic img {
+    margin-top: 2rem;
+    display: flex;
+    width: 80%;
+}
+
+h2 {
+    color: #1b3572;
+    font-size: 1rem;
+}
+
+.main_text {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 0, 625rem;
+
+}
+
+.main_text:last-child {
+    padding-bottom: 3rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+h3 {
+    color: #218bcd;
+    font-weight: 1rem;
+}
+
+aside {
+    width: 20%;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    float: right;
+    border: 1.5rem #ebebeb solid;
+    align-items: center;
+    text-align: center;
+
+}
+
+aside h4 {
+    color: #1b3572;
+    font-variant: small-caps;
+}
+
+aside picture img {
+    width: 5rem;
+
+}
+
+footer {
+
+    justify-content: center;
+    background-color: #1b3572;
+    line-height: 0.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+.aside-paragraph {
+    margin: 0;
+}
+
+hr {
+    width: 80%;
+}
