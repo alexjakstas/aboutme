@@ -90,7 +90,12 @@ h2 {
 .main_text:last-child {
     padding-bottom: 3rem;
 }
-
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-between;
+}
 span {
     font-weight: bold;
 }
@@ -102,6 +107,7 @@ h3 {
 
 aside {
     width: 20%;
+    height: max-content;
     padding: 1rem;
     margin-left: 1rem;
     margin-right: 2rem;
